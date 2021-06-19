@@ -1,14 +1,9 @@
-console.log('vscode 로 실행해보기');
-var a = 5;
-var b = 6;
-console.log(a + b);
+var str =  `javascript`;
+var num = 200;
+var arr = [1,2,3,4,5];
+var obj = {a:3,b:2,c:5};
 
-
-function greeting() {
-  `hello`
-  `chloe` + 3
-  greeting()
-}
-greeting(if(true){
-  console.log(`it is not acceptable`) 
-})
+console.log(str);
+console.log(num);
+console.log(arr);
+console.log(obj);
