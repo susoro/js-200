@@ -16,10 +16,10 @@
     </ul>
   </div>
   <script>
-    function Drawer(el, open = false){
+    function Drawer(el, open = false) {
       this.el = el;
       this.isOpen = open;
-      object.assign(this.el.style,{
+      Object.assign(this.el.style,{
         display:'block',
         position:'fixed',
         top:0,
@@ -45,9 +45,9 @@
     document.getElementById('drawer-opener')
       .addEventListener('click' , e => {
         if (!sideMenu.isOpen){
-        sideMenu.open();
-      } else {
-        sideMenu.close();
+          sideMenu.open();
+        } else {
+          sideMenu.close();
       }
       });
 </script>
